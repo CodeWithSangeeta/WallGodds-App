@@ -69,7 +69,7 @@ fun ForgetPassword() {
                 Text(
                     text = "Forget Password",
                     color = Color.White,
-                    fontSize = 40.sp,
+                    fontSize = 32.sp,
                     fontWeight = FontWeight.Bold,
                     fontFamily = poppinsFontFamily,
                     textAlign = TextAlign.Center,
@@ -82,8 +82,8 @@ fun ForgetPassword() {
                     text = "Forgot your password? No worries reset\n" +
                             "it and get back to WallGodds",
                     color = Color.White.copy(alpha = 0.9f),
-                    fontSize = 16.sp,
-                    lineHeight = 20.sp,
+                    fontSize = 14.sp,
+                    lineHeight = 18.sp,
                     fontWeight = FontWeight.Normal,
                     fontFamily = poppinsFontFamily,
                     textAlign = TextAlign.Center,
@@ -108,7 +108,8 @@ fun ForgetPassword() {
                         Text(
                             text = "Email *",
                             color = PurpleBlue,
-                            fontFamily = poppinsFontFamily
+                            fontFamily = poppinsFontFamily,
+                            fontSize = 14.sp
                         )
                     },
                     modifier = Modifier
@@ -136,8 +137,8 @@ fun ForgetPassword() {
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(56.dp)
-                        .clip(RoundedCornerShape(23.dp)),
-                    shape = RoundedCornerShape(23.dp),
+                        .clip(RoundedCornerShape(16.dp)),
+                    shape = RoundedCornerShape(16.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = VioletBlue)
                 ) {
                     Text(
@@ -156,8 +157,8 @@ fun ForgetPassword() {
                     color = BlueViolet,
                     fontFamily = poppinsFontFamily,
                     fontWeight = FontWeight.Medium,
-                    fontSize = 16.sp,
-                    style = TextStyle(lineHeight = 20.sp),
+                    fontSize = 14.sp,
+                    style = TextStyle(lineHeight = 18.sp),
                     textAlign = TextAlign.Center,
                     modifier = Modifier
                         .clickable { /* Placeholder navigation */ }
