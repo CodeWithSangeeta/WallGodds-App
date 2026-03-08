@@ -69,7 +69,7 @@ fun ForgetPassword() {
                 Text(
                     text = "Forget Password",
                     color = Color.White,
-                    fontSize = 32.sp,
+                    fontSize = 36.sp,
                     fontWeight = FontWeight.Bold,
                     fontFamily = poppinsFontFamily,
                     textAlign = TextAlign.Center,
@@ -82,8 +82,8 @@ fun ForgetPassword() {
                     text = "Forgot your password? No worries reset\n" +
                             "it and get back to WallGodds",
                     color = Color.White.copy(alpha = 0.9f),
-                    fontSize = 14.sp,
-                    lineHeight = 18.sp,
+                    fontSize = 15.sp,
+                    lineHeight = 19.sp,
                     fontWeight = FontWeight.Normal,
                     fontFamily = poppinsFontFamily,
                     textAlign = TextAlign.Center,
@@ -143,7 +143,7 @@ fun ForgetPassword() {
                 ) {
                     Text(
                         text = "Request Reset Link",
-                        fontSize = 18.sp,
+                        fontSize = 14.sp,
                         color = Color.White,
                         fontFamily = poppinsFontFamily
                     )
