@@ -27,6 +27,7 @@ import com.example.wallgodds.navigation.listOfNavItems
 import com.example.wallgodds.screens.FavoritesPage
 import com.example.wallgodds.screens.HomePage
 import com.example.wallgodds.screens.ProfilePage
+import com.example.wallgodds.screens.SignUpScreen
 import com.example.wallgodds.screens.UploadPage
 import com.example.wallgodds.ui.theme.WallGoddsTheme
 import dev.chrisbanes.haze.HazeState
@@ -98,6 +99,9 @@ class MainActivity : ComponentActivity() {
                             }
                             composable(Routes.profile_page) {
                                 ProfilePage(navController)
+                            }
+                            composable(Routes.signup_page) {
+                                SignUpScreen()
                             }
                         }
                     }
